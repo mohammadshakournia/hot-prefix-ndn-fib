@@ -1,0 +1,31 @@
+random seed=1 alphabet=3 maxDepth=6 prefixes=3000 withDescendants=1020
+  hot_b2h hits=18971 (B2 hits=18956)
+  trace B1 stationary: 60000 queries, hits=18375, diffs=0, guardRejects=41409, residentFallbacks=1331
+  trace B0 stationary: 60000 queries, hits=19033, diffs=0, guardRejects=40751, residentFallbacks=1450
+  trace B2 stationary: 60000 queries, hits=18956, diffs=0, guardRejects=40828, residentFallbacks=1466
+  trace B1 decay: 60000 queries, hits=9162, diffs=0, guardRejects=49786, residentFallbacks=545
+  trace B2 decay: 60000 queries, hits=10204, diffs=0, guardRejects=48779, residentFallbacks=666
+random seed=2 alphabet=4 maxDepth=8 prefixes=3000 withDescendants=697
+  hot_b2h hits=25025 (B2 hits=25120)
+  trace B1 stationary: 60000 queries, hits=24550, diffs=0, guardRejects=35141, residentFallbacks=5252
+  trace B0 stationary: 60000 queries, hits=25068, diffs=0, guardRejects=34623, residentFallbacks=5409
+  trace B2 stationary: 60000 queries, hits=25120, diffs=0, guardRejects=34571, residentFallbacks=5322
+  trace B1 decay: 60000 queries, hits=13410, diffs=0, guardRejects=29967, residentFallbacks=867
+  trace B2 decay: 60000 queries, hits=14335, diffs=0, guardRejects=34641, residentFallbacks=1051
+random seed=3 alphabet=8 maxDepth=10 prefixes=3000 withDescendants=406
+  hot_b2h hits=30970 (B2 hits=30968)
+  trace B1 stationary: 60000 queries, hits=30738, diffs=0, guardRejects=28707, residentFallbacks=9809
+  trace B0 stationary: 60000 queries, hits=30802, diffs=0, guardRejects=28643, residentFallbacks=9810
+  trace B2 stationary: 60000 queries, hits=30968, diffs=0, guardRejects=28551, residentFallbacks=9811
+  trace B1 decay: 60000 queries, hits=14005, diffs=0, guardRejects=13872, residentFallbacks=1256
+  trace B2 decay: 60000 queries, hits=14996, diffs=0, guardRejects=16688, residentFallbacks=2103
+random seed=4 alphabet=2 maxDepth=5 prefixes=342 withDescendants=86
+  hot_b2h hits=25743 (B2 hits=25757)
+  trace B1 stationary: 60000 queries, hits=24716, diffs=0, guardRejects=35170, residentFallbacks=0
+  trace B0 stationary: 60000 queries, hits=25661, diffs=0, guardRejects=34225, residentFallbacks=0
+  trace B2 stationary: 60000 queries, hits=25757, diffs=0, guardRejects=34129, residentFallbacks=0
+  trace B1 decay: 60000 queries, hits=19758, diffs=0, guardRejects=40023, residentFallbacks=0
+  trace B2 decay: 60000 queries, hits=22611, diffs=0, guardRejects=36767, residentFallbacks=0
+updates seed=5: mismatches=0, hot hits=9125
+updates seed=6: mismatches=0, hot hits=8885
+ALL TESTS PASSED 0

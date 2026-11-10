@@ -1,0 +1,16 @@
+name: build-and-test
+on: [push, pull_request]
+jobs:
+  linux:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - run: python scripts/build.py --portable --cxx g++-13
+      - name: Regenerate the tables of the committed result sets
+        run: |
+          python scripts/analyze_final.py --results results/final/platform-A
+          python scripts/analyze_final.py --results results/final/platform-B

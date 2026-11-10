@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use this software or its results, please cite the paper below."
+title: "Hot-prefix: guarded prefix caching for NDN FIB lookup"
+authors:
+  - family-names: Shakournia
+    given-names: Mohammad R.
+    affiliation: "School of Electrical and Computer Engineering, University of Tehran"
+  - family-names: Yazdani
+    given-names: Nasser
+    affiliation: "School of Electrical and Computer Engineering, University of Tehran"
+license: MIT
+preferred-citation:
+  type: article
+  title: "Hot-prefix: Guarded Prefix Caching with Exact Incremental Maintenance for NDN FIB Lookup"
+  authors:
+    - family-names: Shakournia
+      given-names: Mohammad R.
+    - family-names: Yazdani
+      given-names: Nasser
+  journal: "Under review"
+  year: 2026

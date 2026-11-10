@@ -1,0 +1,13 @@
+# generated datasets and builds
+data/
+build/
+*.exe
+__pycache__/
+*.pyc
+# large per-window timing files of the final runs (per-run CSVs are committed)
+results/final/**/*_windows.csv
+# local quick test runs
+results/final/test-quick/
+results/final/*-quick/
+data
+!results/final/*/F1_main/n2000000_a1.2_s1_windows.csv

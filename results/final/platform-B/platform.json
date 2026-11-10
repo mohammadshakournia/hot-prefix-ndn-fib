@@ -1,0 +1,24 @@
+{
+ "host": "DESKTOP-QJGDBDC",
+ "os": "Windows-11-10.0.26300-SP0",
+ "python": "3.12.0",
+ "modules": {
+  "numpy": "2.2.6",
+  "matplotlib": "3.9.2",
+  "psutil": "6.0.0"
+ },
+ "gxx_path": "C:\\Program Files\\mingw\\mingw64\\bin\\g++.EXE",
+ "gxx_version": "g++.EXE (x86_64-win32-seh-rev0, Built by MinGW-W64 project) 8.1.0",
+ "git": "git version 2.47.1.windows.2",
+ "logical_cpus": 12,
+ "cpu": {
+  "Name": "AMD Ryzen 5 5600H with Radeon Graphics         ",
+  "NumberOfCores": 6,
+  "NumberOfLogicalProcessors": 12,
+  "L2CacheSize": 3072,
+  "L3CacheSize": 16384,
+  "MaxClockSpeed": 3301
+ },
+ "memory": "7949615104",
+ "power_scheme": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)"
+}
